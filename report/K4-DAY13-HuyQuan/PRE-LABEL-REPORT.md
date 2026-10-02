@@ -5,7 +5,7 @@ Giữ bản đã điền ngoài Git, trong thư mục nhóm private do LC thu. �
 ## Nhóm và provenance
 
 - Mã nhóm/phòng: Nhóm HuyQuan / Phòng: <!-- TODO -->
-- Thành viên: xem `TEAMMATES.md` — Đặng Trường Huy (2A202602184), Quân (<!-- TODO: MSSV -->); nhóm 2 người.
+- Thành viên: xem `TEAMMATES.md` — Đặng Trường Huy (2A202602184), Tô Văn Anh Quân (2A202602231); nhóm 2 người.
 - Trạng thái: `executed-by-group` — chạy thật trên laptop của Đặng Trường Huy, không phải `provided-results`. Lệnh Docker/runner được thực hiện qua Claude Code (AI assistant) theo yêu cầu của Huy, không gõ tay từng lệnh; nếu LC yêu cầu tự tay vận hành, nhóm báo rõ điều này.
 - Người thực sự chạy; ngày/giờ; hệ máy/architecture: Đặng Trường Huy (hỗ trợ bởi Claude Code); 2026-10-01 08:00:06–08:00:24 UTC (15:00 giờ VN); Windows 11 + Docker Desktop (Linux containers), linux/amd64, giới hạn container 4 CPU / 4 GB.
 - Image tag và image ID; phiên bản repo: `day13-pointpillars:lc-20261001-amd64` từ gói Release `student-prelabel-v1` (amd64, SHA256 ZIP khớp `SHA256SUMS.txt`); image ID `sha256:e03983bd922ec29890bf547db8de408402efd82583680b62e671c20da2fd2c82`; `repo_revision` `0831856d921609312d42c7582c366e5a311bb7b1`, `smoke.json` ghi `working_tree_dirty: true` (giá trị do gói ghi lúc đóng gói, nhóm không sửa code).
@@ -52,7 +52,7 @@ Mỗi thành viên tự viết một mục: vai trò đã làm; một quan sát 
 - Quyết định lỗi batch: `case-batch-z` lệch 13/13 hộp đúng −1.805 m, các trường khác giữ nguyên → dừng sửa tay, báo LC kiểm phép chuyển ngược.
 - Chưa chắc: `z_ground = 0.075 m` chỉ là ước lượng; không có camera nên chưa xác nhận được class của các hộp score thấp.
 
-**Quân (<!-- TODO: MSSV -->)** — vai trò: kiểm JSON + xem hình học lượt A và C, vận hành + ghi log lượt B.
+**Tô Văn Anh Quân (2A202602231)** — vai trò: kiểm JSON + xem hình học lượt A và C, vận hành + ghi log lượt B.
 <!-- TODO: Quân tự viết 4 ý: (1) một quan sát A/B/C có dẫn file/hộp/vùng, (2) diễn giải phép z thuận/ngược, (3) một quyết định lỗi batch/từng hộp và hành động, (4) điều chưa chắc. Gợi ý chủ đề khác với Huy: B/C đổi pillar (output/run-C/...) hoặc case-one-box-z. -->
 - Quan sát:
 - Phép z:
